@@ -1,0 +1,94 @@
+#indicator{
+	color:#676767;
+	width: 23.125rem;
+	height: 165px;
+	background-color: #E8E8E8;
+	border:0.5px solid #828282;
+	border-radius: 0.4rem;
+	margin:20px auto;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+	.indicator-header{
+		height: 1.8rem;
+		color:#FFF;
+		border-top-left-radius: 0.4rem;
+		border-top-right-radius: 0.4rem;
+		padding:0.245rem 0.825rem;
+		position: relative;
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.indicator-content-container{
+		font-size: 14px;
+		padding: 20px 38px;
+		width: 21.250rem;
+		height: 110px;
+		background-color: #FFF;
+		position: relative;
+		left: 4%;
+		top: 8%;
+		border:0.5px solid #a19d9c;
+		border-radius: 0.4rem;
+	}
+		.reached{
+			font-weight: 500;
+		}
+		.progress{
+			width: 38%;
+			padding: 4px;
+			border-radius: 0;
+			position: absolute;
+			top: 24px;
+			left: 112px;
+		}
+			.progress-bar{
+				   width: 95%;
+			}
+		.indicator-content-container p {
+			margin-top: 30px;
+		}
+		.caret {
+		    margin-left: -13px;
+		    font-weight: 500;
+		    display: block;
+		    position: absolute;
+		    left:222px;
+		    top:45px;
+		}
+		.caret::before {
+			font-family: Font Awesome\ 5 Free;
+			font-weight:900;
+		    content: "\f0d8";
+		    position:  relative;
+		    top: -11px;
+		    left: 16px;
+		}
+		.target{
+			color: #FFF;
+			text-align: center;
+			width: 50px;
+			height: 40px;
+			background: linear-gradient(0deg, #6f6e73 0%, #a19d9c 100%);
+			border-radius: 2px;
+			position: absolute;
+			left: 246px;
+			top:10px;
+			box-shadow: 0 0 3px rgba(0,0,0,0.5);
+		}
+		.target p{
+			padding: 0;
+			margin:0;
+		}
+		.target-headline{
+			font-size: 12px;
+			border-bottom:0.2px solid #6f6e73;
+		}
+		.target-number{
+			font-size: 16px;
+		}
+		.fas.fa-info-circle{
+			margin-right: 3px;
+		}
+		.money-left{
+			font-size: 14px;
+		}
